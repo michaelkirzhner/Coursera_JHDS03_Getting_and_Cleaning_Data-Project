@@ -21,8 +21,10 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 Project activity is broken into 5 goals and is described below. The description of how the goals were accomplished are detailed in the [Codebook.md](https://github.com/michaelkirzhner/Getting_and_Cleaning_Data/blob/master/Codebook.md). Code can be found at [run_analysis.R](https://github.com/michaelkirzhner/Getting_and_Cleaning_Data/blob/master/run_analysis.R).
 
 You should create one R script called run_analysis.R that does the following. 
+<ol>
 1. Merges the training and the test sets to create one data set.
 2. Extracts only the measurements on the mean and standard deviation for each measurement. 
 3. Uses descriptive activity names to name the activities in the data set
 4. Appropriately labels the data set with descriptive variable names. 
 5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+</ol>
