@@ -98,7 +98,7 @@ dataPart3 <- left_join(dataPart2, activityLabels_table, by = "ActivityID")
 ## Part 5: From the data set in step 4, create a second, independent tidy data set with the average of each 
 ##         variable and each subject.
 
-# NOTE: dplyr library is used to do these tasks
+# NOTE: reshape2 library is used to do these tasks
 
 # First I created vectors for id and value columns
 id_columns <- c("SubjectID", "ActivityID", "ActivityName")
